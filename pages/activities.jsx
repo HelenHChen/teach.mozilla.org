@@ -153,6 +153,15 @@ var ActivitiesPage = React.createClass({
               developedBy="Hive Toronto in partnership with the Office of the Privacy Commissioner of Canada, Mozilla Privacy"
               description="These six hands-on activities engage learners in thinking critically about online privacy by creating secure passwords, understanding how and where their data is being collected, and more. This is an ideal kit for Mozilla Clubs."
             />
+	        <ActivityKit
+	          src1x="/img/pages/activities/img-activity-11.jpg"
+	          src2x="/img/pages/activities/img-activity-11@2x.jpg"
+	          title="Back to School Write the Web Kit"
+	          level="13+"
+	          link="/activities/back-to-school-write-the-web/"
+	          developedBy="Mozilla"
+	          description="Learn how to remix and write basic HTML, CSS, and JavaScript with these Back-to-School Thimble activities and lesson plans."
+	        />
             <ActivityKit
               src1x="/img/pages/activities/img-activity-01.png"
               src2x="/img/pages/activities/img-activity-01@2x.png"
