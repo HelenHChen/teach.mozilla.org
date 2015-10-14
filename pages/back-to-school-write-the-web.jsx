@@ -12,8 +12,8 @@ var CurriculumIntro = React.createClass({
         <section className="intro">
           <Illustration
           height={204} width={204}
-          src1x="/img/pages/back-to-school-write-the-web/photo-clubs-curriculum.jpg"
-          src2x="/img/pages/back-to-school-write-the-web/photo-clubs-curriculum.jpg"
+          src1x="/img/pages/back-to-school-write-the-web/img-main.jpg"
+          src2x="/img/pages/back-to-school-write-the-web/img-main@2x.jpg"
           alt="Graph paper wad"
           className="illustration-img-circle">
             <h2>Learn how to remix and write basic HTML, CSS, and JavaScript with these Back-to-School Thimble activities and lesson plans.</h2>
@@ -49,20 +49,12 @@ var ClubsCurriculum = React.createClass({
       title: "Reading the Web",
       activities: [
         {
-          title: "Kraken the Code",
-          image1x: "/img/pages/web-lit-basics/img-kraken-code.jpg",
-          image2x: "/img/pages/web-lit-basics/img-kraken-code@2x.jpg",
-          subtitle: "Understanding credibility",
-          description: "Learners use the Internet to solve the mystery of The Kraken, a legendary sea creature, while also learning about search terms, keywords, and how to assess the validity and relevance of web sources.",
-          link: "http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/session01-kraken.html"
-        },
-        {
-          title: "Ping Kong",
-          image1x: "/img/pages/web-lit-basics/img-ping-kong.jpg",
-          image2x: "/img/pages/web-lit-basics/img-ping-kong@2x.jpg",
-          subtitle: "Understanding web mechanics",
-          description: "For many, &ldquo;the Internet&rdquo; is an abstract and overwhelming concept. This activity challenges learners to think concretely about how the internet communicates with a computer.",
-          link: "http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/session01-pingkong.html"
+          title: "School Around the World Teaching Kit",
+          image1x: "/img/pages/back-to-school-write-the-web/img-valenciano.jpg",
+          image2x: "/img/pages/back-to-school-write-the-web/img-valenciano@2x.jpg",
+          subtitle: "Understanding Search",
+          description: "Students explore classrooms around the world and learn how to search for images and information to create a basic webpage.",
+          link: "https://www.flickr.com/photos/jamorcillov/6108526728/sizes/l/"
         }
       ]
     },
@@ -84,27 +76,6 @@ var ClubsCurriculum = React.createClass({
           subtitle: "Understanding composing for the web",
           description: "Learners race to sequence the paper boxes labeled with HTML tags, becoming familiar with the most common HTML tags and how to structure a web page.",
           link: "http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/session02-puzzlebox.html"
-        }
-      ]
-    },
-    {
-      title: "Participating on the Web",
-      activities: [
-        {
-          title: "Web Chef",
-          image1x: "/img/pages/web-lit-basics/img-web-chef.jpg",
-          image2x: "/img/pages/web-lit-basics/img-web-chef@2x.jpg",
-          subtitle: "Understanding open practices",
-          description: "Learners teach their peers a skill and document the steps by making a web resource that includes properly-attributed open content.",
-          link: "http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/session03-chef.html"
-        },
-        {
-          title: "Final Project: Story of Us",
-          image1x: "/img/pages/web-lit-basics/img-story-of-us.jpg",
-          image2x: "/img/pages/web-lit-basics/img-story-of-us@2x.jpg",
-          subtitle: "Understanding community participation",
-          description: "Learners tell their Story of Self, use it to reflect  on what they have learned, and how they want to participate on the web and with their community going forward.",
-          link: "http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/session03-storyofus.html"
         }
       ]
     }
