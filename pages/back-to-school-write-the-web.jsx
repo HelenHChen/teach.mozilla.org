@@ -62,20 +62,28 @@ var ClubsCurriculum = React.createClass({
       title: "Writing the Web",
       activities: [
         {
-          title: "Hack the News",
+          title: "My Six-Word Summer",
           image1x: "/img/pages/web-lit-basics/img-hack-news.jpg",
           image2x: "/img/pages/web-lit-basics/img-hack-news@2x.jpg",
-          subtitle: "Understanding remixing",
-          description: "Learners use X-Ray Goggles to remix a news website, learning about openly-licensed resources, different forms of media, and how to create something new on the Web through remixing.",
-          link: "http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/session02-hackthenews.html"
+          subtitle: "Understanding Composing",
+          description: "Learners reflect on their summer break by remixing and editing text and HTML on a webpage.",
+          link: "https://d157rqmxrxj6ey.cloudfront.net/mozillalearning/11704/"
         },
         {
-          title: "HTML Puzzle Boxes",
+          title: "Remix My Schedule Teaching Kit",
           image1x: "/img/pages/web-lit-basics/img-puzzle-boxes.jpg",
           image2x: "/img/pages/web-lit-basics/img-puzzle-boxes@2x.jpg",
-          subtitle: "Understanding composing for the web",
-          description: "Learners race to sequence the paper boxes labeled with HTML tags, becoming familiar with the most common HTML tags and how to structure a web page.",
-          link: "http://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/session02-puzzlebox.html"
+          subtitle: "Understanding Composing",
+          description: "Students create customized, webby versions of their school schedule by remixing and editing text and HTML on a basic webpage.",
+          link: "http://chadsansing.github.io/curriculum-testing/remix-my-schedule/session02-remixmyschedule.html"
+        },
+        {
+          title: "Homework Excuse Generator Teaching Kit",
+          image1x: "/img/pages/web-lit-basics/img-puzzle-boxes.jpg",
+          image2x: "/img/pages/web-lit-basics/img-puzzle-boxes@2x.jpg",
+          subtitle: "Understanding Coding/Scripting",
+          description: "Students create an interactive webpage while learning basic JavaScript functions.",
+          link: "https://d157rqmxrxj6ey.cloudfront.net/mozillalearning/11701/"
         }
       ]
     }
